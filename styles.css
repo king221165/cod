@@ -1,0 +1,155 @@
+/* Basic Reset */
+#html a {
+    color: #7758E0; /* Accent Color: Light Blue */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+#html a:hover {
+    color: #84ddec; /* Accent Color: Soft Red */
+    text-decoration: underline;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f7f9; /* Light Grayish Blue Background */
+}
+
+/* Header Styles */
+header {
+    background-color: #485EAE; /* Main Color: Muted Blue */
+    color: #ffffff; /* White */
+    padding: 1.5rem 3rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    color: #ffffff; /* White */
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e0e0e0; /* Light Gray */
+}
+
+/* Main Section Styles */
+main {
+    padding: 2rem 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: #ffffff; /* White Background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #485EAE; /* Main Color: Muted Blue */
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    border-bottom: 2px solid #D57979; /* New Accent Color: Soft Red */
+    padding-bottom: 0.5rem;
+}
+
+/* Button Styles */
+button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #D57979; /* New Accent Color: Soft Red */
+    color: #ffffff; /* White */
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #c55a5a; /* Darker Soft Red */
+    transform: translateY(-2px); /* Slight Lift Effect */
+}
+
+/* Content Box Styles */
+.content {
+    margin-top: 1rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #ffffff; /* White Background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Code Block Styles */
+pre {
+    background-color: #f1f1f1; /* Light Gray Background */
+    padding: 1.5rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: 'Courier New', monospace;
+    border: 1px solid #ddd;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #485EAE; /* Main Color: Muted Blue */
+    color: #ffffff; /* White */
+    text-align: center;
+    padding: 1.5rem 3rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

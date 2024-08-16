@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tutorial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>HTML Tutorial</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="css-tutorial.html">CSS Tutorial</a></li>
+                <li><a href="javascript-tutorial.html">JavaScript Tutorial</a></li>
+                <li><a href="python-tutorial.html">Python Tutorial</a></li>
+                <li><a href="csharp-tutorial.html">C# Tutorial</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>HTML (HyperText Markup Language) is the standard language for creating web pages and web applications. HTML describes the structure of web pages using a variety of tags and attributes.</p>
+        </section>
+
+        <section id="basic-structure">
+            <h2>Basic Structure</h2>
+            <p>An HTML document has a basic structure that includes the following elements:</p>
+            <pre>
+<code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title&gt;Document Title&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Heading&lt;/h1&gt;
+        &lt;p&gt;Paragraph text.&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code>
+            </pre>
+        </section>
+
+        <section id="text-formatting">
+            <h2>Text Formatting</h2>
+            <p>HTML provides several tags for formatting text. Here are some examples:</p>
+            <pre>
+<code>
+&lt;b&gt;Bold Text&lt;/b&gt;
+&lt;i&gt;Italic Text&lt;/i&gt;
+&lt;u&gt;Underlined Text&lt;/u&gt;
+&lt;strong&gt;Strong Text&lt;/strong&gt;
+&lt;em&gt;Emphasized Text&lt;/em&gt;
+</code>
+            </pre>
+        </section>
+
+        <section id="links">
+            <h2>Links</h2>
+            <p>Links are created using the &lt;a&gt; tag. Here’s an example:</p>
+            <pre>
+<code>
+&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;
+</code>
+            </pre>
+            <p>Example link: <a href="https://www.example.com" target="_blank">Visit Example</a></p>
+        </section>
+
+        <section id="images">
+            <h2>Images</h2>
+            <p>Images are added using the &lt;img&gt; tag. Here’s an example:</p>
+            <pre>
+<code>
+&lt;img src="image.jpg" alt="Description"&gt;
+</code>
+            </pre>
+            <p>Example image:</p>
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+        </section>
+
+        <section id="lists">
+            <h2>Lists</h2>
+            <p>HTML supports ordered and unordered lists. Here’s an example of each:</p>
+            <pre>
+<code>
+&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;First Item&lt;/li&gt;
+    &lt;li&gt;Second Item&lt;/li&gt;
+&lt;/ol&gt;
+</code>
+            </pre>
+            <p>Example of an unordered list:</p>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ul>
+
+            <p>Example of an ordered list:</p>
+            <ol>
+                <li>First Item</li>
+                <li>Second Item</li>
+            </ol>
+        </section>
+
+        <section id="forms">
+            <h2>Forms</h2>
+            <p>Forms are used to collect user input. Here’s a basic example:</p>
+            <pre>
+<code>
+&lt;form action="/submit" method="post"&gt;
+    &lt;label for="name"&gt;Name:&lt;/label&gt;
+    &lt;input type="text" id="name" name="name"&gt;&lt;br&gt;
+    &lt;label for="email"&gt;Email:&lt;/label&gt;
+    &lt;input type="email" id="email" name="email"&gt;&lt;br&gt;
+    &lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;
+</code>
+            </pre>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Coding Tutorial. All rights reserved.</p>
+    </footer>
+</body>
+</html>
